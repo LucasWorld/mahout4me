@@ -30,7 +30,19 @@
   		<groupId>${mahout.groupId}</groupId>
   		<version>${mahout.version}</version>
   	</dependency>
-  	
+ 
+   	<dependency>
+  		<artifactId>mahout-mr</artifactId>
+  		<groupId>${mahout.groupId}</groupId>
+  		<version>${mahout.version}</version>
+  	</dependency>
+ 
+    <dependency>
+  		<artifactId>mahout-hdfs</artifactId>
+  		<groupId>${mahout.groupId}</groupId>
+  		<version>${mahout.version}</version>
+  	</dependency>
+  	 	 	
 	<dependency>
 	    <groupId>jdk.tools</groupId>
 	    <artifactId>jdk.tools</artifactId>
